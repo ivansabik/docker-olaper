@@ -4,8 +4,6 @@ services:
     build: .
     ports:
       - 8180:8080
-    volumes:
-      -  ./olaper_config/:/etc/olaper/
   saiku_www:
     image: loumaris/saiku
     ports:
